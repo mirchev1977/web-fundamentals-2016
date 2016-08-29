@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exam Results</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		table{
+			width: 50%;
+			margin: 0 auto;
+			border: 1px black solid;
+			text-align: left;
+		}
+
+		th, td{
+			border: black solid 1px;
+		}
+
+		th:first-of-type, td:first-of-type{
+			width: 10%;
+		}
+		th{
+			text-align: center;
+		}
+
+		thead tr:first-of-type{
+			font-size: 40px;
+		}
+		thead th{
+			padding: 20px;
+		}
+		tbody th {
+			font-size: 20px;
+			padding: 20px;
+		}
+		tbody td {
+			font-size: 20px;
+			padding: 20px;
+		}
+		tbody th{
+			text-align: center;
+		}
+		tbody td:last-of-type{
+			text-align: center;
+		}
+		tfoot td{
+			padding: 20px;
+			font-size: 30px;
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr><th colspan="4">Web fundamentals exam result</th></tr>
+		</thead>
+		<tbody>
+			<tr><th>№</th><th>First name</th><th>Last name</th><th>Score</th></tr>
+			<tr><td>01</td><td>Gosho</td><td>Goshev</td><td>500</td></tr>
+			<tr><td>02</td><td>Tosho</td><td>Toshev</td><td>500</td></tr>
+			<tr><td>03</td><td>Pencho</td><td>Penchev</td><td>500</td></tr>
+			<tr><td>04</td><td>Gencho</td><td>Genchev</td><td>500</td></tr>
+			<tr><td>05</td><td>Draga</td><td>Draganova</td><td>500</td></tr>
+		</tbody>
+		<tfoot>
+			<tr><td colspan="4">Average score from 05 participants: 500</td></tr>
+		</tfoot>
+	</table>
+</body>
+</html>
