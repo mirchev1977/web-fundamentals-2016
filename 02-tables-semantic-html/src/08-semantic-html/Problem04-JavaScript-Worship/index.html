@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Worship</title>
+</head>
+<body>
+<div style="display: none;">
+	<img src="logo_JavaScript.png" id="logo-js">
+</div>
+<canvas id="canvas" width="500" height="500"></canvas>
+
+<script type="text/javascript">
+    window.onload = function(){
+    	var c=document.getElementById("canvas");
+		var ctx=c.getContext("2d");
+		ctx.rect(20,20,400,400);
+		ctx.strokeStyle="red";
+		ctx.lineWidth= 5;
+		ctx.setLineDash([5, 15]);
+		ctx.stroke();
+
+		ctx.font = "49px Arial";
+		ctx.fillText("I love JavaScript",38,80);
+
+		var img=document.getElementById("logo-js");
+    	ctx.drawImage(img, 110, 130, 200, 200);
+    };
+</script>
+</body>
+</html>
