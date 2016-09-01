@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Cup Brazil</title>
+	<style type="text/css">
+		table{
+			padding: 20px;
+			width: 100%;
+			border-spacing: 0px;
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		th, td{
+			border: 1px solid black;
+		}
+
+		td:nth-of-type(2), td:nth-of-type(4), td:nth-of-type(6), td:nth-of-type(8){
+			text-align: center;
+		}
+
+		td:nth-of-type(1), td:nth-of-type(5){
+			text-align: right;
+		}
+		tr:nth-of-type(odd) {
+			background-color: lightgray;
+		}
+		tr:first-of-type{
+			background-color:  #ffcc00;
+		}
+
+		tr:nth-of-type(2) td:first-of-type:after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/brasil.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(2) td:nth-of-type(3):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/mexico.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(2) td:nth-of-type(5):after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/brasil.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(2) td:nth-of-type(7):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/mexico.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+
+
+		tr:nth-of-type(3) td:first-of-type:after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/spain.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(3) td:nth-of-type(3):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/netherlands.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(3) td:nth-of-type(5):after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/spain.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(3) td:nth-of-type(7):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/netherlands.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(4) td:first-of-type:after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/italy.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(4) td:nth-of-type(3):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/england.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(4) td:nth-of-type(5):after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/italy.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(4) td:nth-of-type(7):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/england.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(5) td:first-of-type:after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/argentina.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(5) td:nth-of-type(3):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/bosnia.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(5) td:nth-of-type(5):after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/argentina.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(5) td:nth-of-type(7):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/bosnia.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(6) td:first-of-type:after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/germany.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(6) td:nth-of-type(3):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/portugal.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		tr:nth-of-type(6) td:nth-of-type(5):after{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/germany.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-left: 5px;
+		}
+
+		tr:nth-of-type(6) td:nth-of-type(7):before{
+			 content: "";
+		    display: inline-block;
+		    background: url("images/portugal.jpg") no-repeat top right;
+		    background-size: 25px 25px;
+		    width: 25px;
+		    height: 25px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+
+		th, td {
+			padding: 10px 5px;
+		}
+
+		input[type=number]{
+			width: 25px;
+		}
+
+		input[type=number]:first-of-type{
+			margin-right: 5px;
+		}
+
+		input[type=number]:last-of-type{
+			margin-left: 5px;
+		}
+
+		th {
+			font-size: 20px;
+		}
+
+		td:last-of-type{
+			height: 50px;
+			width: 50px;
+		}
+
+		div{
+			background-color: red;
+			height: 100%;
+			width: 100%;
+			border-radius: 50%;
+		}
+
+		tr:nth-of-type(5) div, tr:nth-of-type(6) div{
+			background-color: lightgreen;
+		}
+
+		span{
+			display: inline-block;
+			margin-top: 17px;
+			color: white;
+		}
+
+		input[type=number]{
+			color: red;
+		}
+
+		tr:nth-of-type(5) input[type=number], tr:nth-of-type(6) input[type=number]{
+			color: black;
+		}
+
+
+		tr:first-of-type th:first-of-type{
+			border-radius: 10px 0 0 0;
+		}
+
+		tr:first-of-type th:last-of-type{
+			border-radius: 0 10px 0 0;
+		}
+
+		tr:last-of-type td:first-of-type{
+			border-radius: 0 0 0 10px;
+		}
+
+		tr:last-of-type td:last-of-type{
+			border-radius: 0 0 10px 0;
+		}
+
+	</style>
+</head>
+<body>
+<table>
+	<tr><th>Country</th><th>Result</th><th>Country</th><th>Group</th><th colspan="4">Place A Bet</th></tr>
+	<tr><td>Brazil</td><td>1 - 3</td><td>Mexico</td><td>A</td><td>Brazil</td><td><input type="number" value="0">-<input type="number" value="0"></td><td>Mexico</td><td><div><span>BET</span></div></td></tr>
+
+	<tr><td>Spain</td><td>1 - 5</td><td>Netherlands</td><td>B</td><td>Spain</td><td><input type="number" value="0">-<input type="number" value="0"></td><td>Netherlands</td><td><div><span>BET</span></div></td></tr>
+	<tr><td>Italy</td><td>2 - 1</td><td>England</td><td>A</td><td>Italy</td><td><input type="number" value="0">-<input type="number" value="0"></td><td>England</td><td><div><span>BET</span></div></td></tr>
+	<tr><td>Argentina</td><td>-</td><td>Bosnia and Herz</td><td>A</td><td>Argentina</td><td><input type="number" value="0">-<input type="number" value="0"></td><td>Bosia and Herz</td><td><div><span>BET</span></div></td></tr>
+	<tr><td>Germany</td><td>-</td><td>Portugal</td><td>A</td><td>Germany</td><td><input type="number" value="0">-<input type="number" value="0"></td><td>Portugal</td><td><div><span>BET</span></div></td></tr>
+</table>
+</body>
+</html>
