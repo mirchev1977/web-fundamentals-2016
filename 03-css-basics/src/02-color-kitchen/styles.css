@@ -165,3 +165,39 @@ body > header:after{
 	top: 7px;
 	right: 0px;
 }
+
+aside a{
+	color: black;
+}
+
+aside li a:hover{
+	color: white;
+}
+
+aside a:visited{
+	color: gray;
+}
+
+aside li:first-of-type a:hover{
+	background-color: red;
+}
+
+aside li:nth-of-type(2) a:hover{
+	background-color: orange;
+}
+
+aside li:nth-of-type(3) a:hover{
+	background-color: yellow;
+}
+
+aside li:nth-of-type(4) a:hover{
+	background-color: green;
+}
+
+aside li:nth-of-type(5) a:hover{
+	background-color: blue;
+}
+
+aside li:nth-of-type(6) a:hover{
+	background-color: purple;
+}
