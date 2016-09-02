@@ -1,0 +1,167 @@
+body{
+	background: url("colorful_dots_on_black.jpg")
+}
+
+aside, article{
+	background-color: rgba(255, 250, 250, .97);
+	border-radius: 10px;
+}
+
+aside{
+	width: 20%;
+	float: left;
+}
+
+aside{
+	font-size: 20px;
+}
+
+aside header{
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+aside li{
+	margin-bottom: 10px;
+	list-style-type: none;
+	padding-left: none;
+	margin-left: none;
+}
+
+aside a:link{
+	text-decoration: none;
+	color: black;
+}
+
+aside li:before{
+	content: "\2713";
+	background-color: lightgreen;
+	padding: 2px;
+	border-radius: 50%;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+section{
+ width: 70%;
+ float: right;
+ padding: 20px;
+ padding-top: 0px;
+}
+
+aside ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+aside {
+	padding: 30px;
+	padding-left: 50px;
+}
+
+article{
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+article {
+	font-size: 17px;
+}
+article div:first-letter{
+	font-size: 50px;
+	font-style: italic;
+}
+
+article footer a{
+	color: gray;
+}
+
+article header{
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#webColors{
+	background-color: red;
+}
+
+#webSafeColors{
+	background-color: orange;
+}
+
+#RGB{
+	background-color: yellow;
+}
+
+#RGBA{
+	background-color: green;
+}
+
+#HSLHSV{
+	background-color: blue;
+}
+
+#lorem{
+	background-color: purple;
+}
+
+article span:first-of-type{
+	color: purple;
+	font-style: italic;
+}
+
+article span:first-of-type:before{
+	content: "\"";
+}
+
+article span:first-of-type:after{
+	content: "\"";
+}
+
+body{
+	margin-top: -7px;
+}
+
+body > header{
+	background-color: green;
+	color: yellow;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	position: relative;
+}
+
+body > header:before{
+	content: "";
+	height: 60px;
+	width: 480px;
+	background-color: red;
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 0px;
+}
+
+body > header:after{
+	content: "";
+	height: 60px;
+	width: 480px;
+	background-color: blue;
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	right: 0px;
+}
