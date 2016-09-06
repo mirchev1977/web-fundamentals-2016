@@ -1,0 +1,39 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+section{
+	width: 100%;
+	height: 643px;
+	background-image: 
+	url("images/TediHula.png"), 
+	url("images/PetiaHula.png"), 
+	url("images/VladoGHula.png"), 
+	url("images/AlexHula.png"), 
+	url("images/NakovHula.png"), 
+	url("images/VladoKHula.png"),
+	url("images/HawaiiBackground.png");
+
+
+	background-repeat: no-repeat;
+
+
+	background-size: 
+	200px 330px, 
+	356px 400px, 
+	356px 400px, 
+	356px 400px, 
+	356px 400px,
+	356px 400px, 
+	100% 643px;
+
+
+	background-position: 
+	36% 101%, 
+	25% 101%, 
+	5% 101%, 
+	75% 101%, 
+	60% 101%,
+	100% 101%, bottom;
+}
