@@ -1,0 +1,119 @@
+div label{
+	width: 102px;
+    display: inline-block;
+}
+
+div input, div textarea{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+div textarea{
+	height: 100px;
+}
+
+div {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.radio input{
+	width: 20px;
+	vertical-align: middle;
+}
+
+.radio label{
+	vertical-align: middle;
+}
+
+div{
+	border-radius: 5px;
+}
+
+legend {
+	font-size: 20px;
+	color: white;
+}
+
+fieldset{
+	border: none;
+}
+
+
+form{
+	width: 40%;
+	margin: 0 auto;
+}
+
+textarea{
+	vertical-align: top;
+}
+
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+input[type=submit]{
+	background-color: #000066;
+    color: white;
+    border-radius: 20%/50%;
+    width: 100px;
+    height: 45px;
+    border-color: #000066;
+    margin-bottom: 30px;
+}
+
+.radio label:first-of-type:before{
+	content: "";	
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-color: blue;
+	vertical-align: middle;
+	background: url("images/visa.png");
+	background-size: 30px 20px;
+}
+
+.radio label:nth-of-type(2):before{
+	content: "";	
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-color: blue;
+	vertical-align: middle;
+	background: url("images/AmEx.png");
+	background-size: 30px 20px;
+}
+
+.radio label:last-of-type:before{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-color: blue;
+	vertical-align: middle;
+	background: url("images/master-card.png");
+	background-size: 30px 20px;
+}
+
+.radio label{
+	width: 125px;
+}
+
+div{
+	    border: white 1px solid;
+}
+
+form{
+	padding-top: 30px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background: url("formBackground.jpg");
+}

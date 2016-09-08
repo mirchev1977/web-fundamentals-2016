@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling an HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Step 1: Your details</legend>
+		<div>
+			<label for="name">Name</label>
+			<input type="text" id="name">
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" id="email">
+		</div>
+		<div>
+			<label for="phone" >Phone</label>
+			<input type="phone" id="phone">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Step 2: Delivery address</legend>
+		<div>
+			<label for="address"><span>Address</span></label>
+			<textarea id="address"></textarea>
+		</div>
+		<div>
+			<label for="post-code">Post code</label>
+			<input type="text" id="post-code">
+		</div>
+		<div>
+			<label for="country">Country</label>
+			<input type="text" id="contry">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Step 3: Card details</legend>
+		<div class="radio">
+			<p>Card type</p>
+			<input type="radio" id="visa">
+			<label for="visa">VISA</label>
+			<input type="radio" id="am-ex">
+			<label for="am-ex">AmEx</label>
+			<input type="radio" id="MasterCard">
+			<label for="MasterCard">MasterCard</label>
+		</div>
+		<div>
+			<label for="security-code">Security code</label>
+			<input type="text" id="security-code">
+		</div>
+		<div>
+			<label for="name-on-card">Name on card</label>
+			<input type="text" id="name-on-card">
+		</div>
+	</fieldset>
+	<footer>
+		<input type="submit" value="BUY IT">
+	</footer>
+</form>
+</body>
+</html>
