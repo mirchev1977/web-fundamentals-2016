@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<form>
+	<h1>Enter the system</h1>
+	<p>It is necessary to log in into your account in order to sign in for a course.</p>
+	<fieldset>
+		<h2>Are you New? Register</h2>
+		<input type="text" name="username" id="username" placeholder="User name">
+
+		<input type="email" name="email" id="email" placeholder="Email">
+
+		<input type="password" name="password" id="password" placeholder="Password">
+
+		<input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+
+		<input type="submit" name="register" value="Register" id="register">
+	</fieldset>
+	<fieldset>
+		<h2>Already a student? Log in</h2>
+		<input type="text" name="username" id="username" placeholder="User name">
+
+		<input type="password" name="password" id="password" placeholder="Password">
+
+		
+		<div class="remember-me-container">
+			<input type="checkbox" name="remember-me" id="remember-me">
+			<label for="remember-me">Remember me?</label>
+		</div>
+
+
+		<input type="submit" name="login" value="Login" id="login">
+		<p><a href="#">Forgot Password?</a></p>
+	</fieldset>
+</form>
+
+
+
+
+</body>

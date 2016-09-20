@@ -1,0 +1,224 @@
+body, hgroup, div, p, span, article, section, header, aside, nav, footer, input, form, fieldset, label{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 13px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+section#container{
+    background-color: #EBEBEB;
+    max-width: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 500px;
+    overflow: auto;
+    margin-left: 290px;
+}
+
+section#container header#main-header{
+}
+
+section#container header#main-header h1{
+    background-color: #F1F1F1;
+    border-bottom: lightgray 1px dotted;
+    height: 72px;
+    line-height: 72px;
+    padding-left: 20px;
+    color: #389EE6;
+    clear: both;
+}
+
+header#main-header section#header-left{
+    height: 140px;
+    width: 75%;
+    float: left;
+    clear: left;
+}
+
+header#main-header section#header-right{
+    width: 23.7%;
+    float: right;
+    clear: right;
+    height: 116px;
+    text-align: center;
+    padding-top: 24px;
+    padding-left: 10px;
+}
+
+section#header-right label{
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+section#header-right input#search-field{
+    display: block;
+    height: 38px;
+    width: 188px;
+    border-radius: 5px;
+}
+
+section#personal-details{
+    position: relative;
+    clear: left;
+    width: 20.7%;
+    overflow: auto;
+    float: left;
+}
+
+section#personal-details header{
+    margin-bottom: 20px;
+}
+
+section#personal-details input{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+section#reservation-request{
+    margin-left: 0px;
+    width: 75%;
+    height: 198px;
+    padding-top: 2px;
+    overflow: auto;
+    padding-left: 30px;
+}
+
+div#upper{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+div#upper label:first-of-type{
+    display: block;
+    margin-bottom: 3px;
+    float: left;
+    width: 407px;
+}
+
+select#room-selection{
+    display: block;
+    width: 380px;
+    height: 36px;
+    border-radius: 5px;
+    float: left;
+    clear: left;
+}
+
+div#upper label:last-of-type{
+}
+
+input#number-of-rooms{
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 26px;
+    width: 153px;
+}
+
+div#lower{
+    overflow: auto;
+}
+
+div#lower label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+div#lower label:first-of-type{
+    float: left;
+    width: 280px;
+    margin-right: 35px;
+}
+
+div#lower label:last-of-type{
+}
+
+div#lower input{
+    display: block;
+    width: 273px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+div#lower input:first-of-type{
+    float: left;
+    clear: left;
+    margin-right: 35px;
+}
+
+div#lower input:last-of-type{
+    
+}
+
+article#main-article{
+}
+
+div#dividing-line{
+    border-bottom: 1px dotted lightgray;
+}
+
+div#dividing-line:first-of-type{
+    height: 200px;  
+}
+
+footer#main-footer{
+    border-top: lightgray 1px dotted;
+    padding-top: 30px !important;
+    padding-bottom: 100px;
+    text-align: right;
+}
+
+footer#main-footer input{
+    width: 190px;
+    height: 40px;
+    color: white;
+    background-color: #32A2E4;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 5px;
+}
+
+input[type=date]{
+    padding-left: 5px;
+}
+
+input[type=number]{
+    padding-left: 5px;
+}
+
+input#search-field{
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: white;
+}
+
+section#header-right input[type=submit]{
+    display: block;
+    width: 37px;
+    height: 38px;
+    background-image: url('images/magnifying-glass.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    float: right;
+    margin-top: -39px;
+    background-color: white;
+    border: 0px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flight Order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section id="container">
+            <header><h1>Flight Order</h1></header>
+            <form>
+                <section>
+                    <div id="from-destination">
+                    <label for="from-city">From</label>
+                    <input list="cities-from" name="cities-from" id="from-city" placeholder="enter a city">
+                        <datalist id="cities-from">
+                            <option value="London">
+                            <option value="Sofia">
+                            <option value="Stockholm">
+                            <option value="Paris">
+                            <option value="Madrid">
+                            <option value="Ottawa">
+                        </datalist>
+                    </div>
+                    <div id="to-destination">
+                        <label for="to-city">To</label>
+                        <input list="cities-to" name="cities-to" id="to-city" placeholder="enter a city">
+                        <datalist id="cities-to">
+                            <option value="London">
+                            <option value="Sofia">
+                            <option value="Stockholm">
+                            <option value="Paris">
+                            <option value="Madrid">
+                            <option value="Ottawa">
+                        </datalist>
+                        <section id="checkbox">
+                        <label>
+                            <input type="checkbox" /> Prefer directs
+                        </label>   
+                    </section>
+                    </div>
+                </section>
+                <div id="clear"></div>
+                <section>
+                    <div class="date"><label for="departure-date">Departure Date</label> <input type="date" id="departure-date" /></div>
+                    <div class="time-interval"><label>Time Interval</label> <input type="text" value="00:00" /><input type="text" value="00:00" /></div>
+                </section>
+                <div id="clear"></div>
+                <section>
+                    <div class="date"><label for="return-date">Return Date</label> <input type="date" id="return-date" /></div>
+                    <div class="time-interval"><label>Time Interval</label> <input type="text" value="00:00" /><input type="text" value="00:00" /></div>
+                </section>
+                <div id="clear"></div>
+                <section>
+                    <div class="age"><label>12+</label><input type="number" min="13" /></div>
+                    <div class="age"><label>2-12</label><input type="number" min="3" max="12" /></div>
+                    <div class="age"><label>0-2</label><input type="number" min="0" max="2" /></div>
+                    <div id="class">
+                    <label>Choose class</label>
+                    <div id="clear"></div>
+                    <select>
+                        <option>Economy</option>
+                        <option>First</option>
+                        <option>Second</option>
+                        <option>Business</option>
+                    </select>
+                    </div>
+                </section>
+                <div id="clear"></div>
+                <section>
+                    <input type="submit" value="Search" />
+                </section>
+            </form>
+        </section>
+    </body>
+</html>

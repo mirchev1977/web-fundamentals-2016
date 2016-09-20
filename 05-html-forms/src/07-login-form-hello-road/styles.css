@@ -1,0 +1,153 @@
+body, hgroup, div, p, span, article, section, header, aside, nav, footer, input, form, fieldset, label{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url(images/backgroundImage.jpg);
+    background-repeat: no-repeat;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+section#container{
+    overflow: auto;
+    width: 630px;
+    height: 350px;
+    margin-left: 30%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 125px;
+}
+
+section#login{
+    background-color: rgba(130,52,48, 0.8);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+div.icon{
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 1.07px;
+    width: 26px;
+    height: 26px;
+    background-color: #B58989;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+div.icon img{
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+    padding-top: 0px;
+    height: 73%;
+}
+
+section#form-part{
+    
+}
+
+section#form-part input{
+    display: block;
+    height: 25px;
+    border-radius: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 230px;
+}
+
+div.top{
+    margin-bottom: 3px;
+}
+
+div.bottom{
+    margin-bottom: 3px;
+}
+
+div.middle{
+    margin-bottom: 3px;
+}
+
+section#register{
+    background-color: rgba(130,52,48, 0.8);
+    padding: 15px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+section#login, section#register{width: 42.44%;height: 200px;}
+
+section#login header, section#register header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #DEB887;
+}
+
+input[type=submit]{
+    border-radius: 5px !important;
+    width: 260px !important;
+    margin-bottom: 3px;
+    height: 25px !important;
+    background-color: rgba(55,145,95, 0.5);
+    color: white;
+}
+
+section#login input[type=submit]{
+}
+
+section#register input[type=submit]{
+    
+}
+
+input[type=submit]:hover{
+    background-color: rgba(74,90,8,0.5);
+    cursor: pointer;
+}
+
+section#login input[type=submit]:first-of-type{
+    background-image: url('images/paper-icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 75px;
+    background-size: 23px;
+}
+
+section#login input[type=submit]:last-of-type{
+    background-image: url('images/cogwheel-icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 67px;
+    background-size: 19px;
+}
+
+section#register input[type=submit]:first-of-type{
+    background-image: url('images/paper-icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 75px;
+    background-size: 23px;
+}
+
+div.icon:hover{
+    background-color: rgba(99,38,11, 0.9);
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 5px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    border-bottom: white 1px solid;
+}

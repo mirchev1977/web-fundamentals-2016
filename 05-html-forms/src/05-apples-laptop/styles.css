@@ -1,0 +1,132 @@
+body, hgroup, div, article, header, footer, section, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.picture img{
+    width: 100%;
+    height: 209px;
+}
+
+div.picture{
+    width: 100%;
+}
+
+article.container{
+    border: 1px #D9EEFA solid;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px 10px 0px 10px;
+    text-align: left;
+    font-size: 190%;
+    color: #2C425A;
+    overflow: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+
+article#main-article{
+    padding-left: 10px;
+    padding-right: 0px;
+    border: 0px black solid;
+    width: 80%;
+    padding-bottom: 10px;
+    overflow: auto;
+    float: left;
+}
+
+article.container header{
+    font-weight: bold;
+    color: #2C425A;
+    text-align: left;
+    font-size: 125%;
+}
+
+article.container footer{
+    float: right;
+    background-color: #2C425A;
+    color: white;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top-left-radius: 10px;
+}
+
+article.container footer p{
+    background-color: red;
+    width: 100px;
+    float: right;
+}
+
+section#container{
+    padding-bottom: 50px;
+    overflow: auto;
+    font-family: Arial;
+}
+
+aside#parameter-selector{
+    width: 17.3%;
+    background-color: #F7FCFF;
+    float: right;
+    height: 789px;
+}
+
+input[type=range]{
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+aside#parameter-selector{
+    color: #2C425A;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+aside#parameter-selector label{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+aside#parameter-selector header{
+    
+}
+
+aside#parameter-selector header div#left{
+    float: left;
+}
+
+aside#parameter-selector header div#right{
+    float: right;
+}
+
+h1{
+    color: #2C425A;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+article.container:nth-of-type(2) div.picture{
+    width: 354px;
+}
+
+article.container:nth-of-type(5) div.picture{
+    width: 354px;
+}
+
+article.container:nth-of-type(6) div.picture{
+    width: 354px;
+    height: 200px;
+}
+
+article.container:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article.container:nth-child(5){
+    margin-left: 10px;
+    margin-right: 10px;
+}

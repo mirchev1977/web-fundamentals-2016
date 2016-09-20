@@ -1,0 +1,213 @@
+body{
+    margin: 0px 200px 0px 300px;
+    padding: 0px;
+    padding-right: 0px;
+    font-family: Arial;
+}
+
+ul{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    margin-left: 3px;
+    background-color: #E3E3E3;
+}
+
+header#main{
+}
+
+header#main header{
+    background-image: url('images/twilight-header.png');
+    height: 238px;
+    background-size: 100% 100%;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+header#main nav{
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    border-left: 1px #E3E3E3 solid;
+    border-right: 1px solid #E3E3E3;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+header#main ul{
+    padding-left: 0px;
+}
+
+header#main li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: #E3E3E3;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #626161;
+    padding: 10px 30px 10px 30px;
+    margin-left: -3px;
+    position: relative;
+    border-right: 1px white solid;
+}
+
+
+
+section#main-section{
+   border-top: 2px #E3E3E3 solid;
+   padding-left: 0px;
+   padding-right: 0px;
+   width: 90.6%;
+   padding-left: 45px;
+   padding-right: 45px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   overflow: auto;
+}
+
+
+
+section#main-section section#container{
+width: 60%;float: left;}
+
+
+
+section#main-section section#container article#welcome-message{
+    border: 1px #E3E3E3 solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px 20px 10px 20px;
+}
+
+section#main-section section#container article#welcome-message header{
+    text-transform: uppercase;
+}
+
+section#main-section section#container article#welcome-message article{
+height: 200px;overflow: hidden;}
+
+
+
+
+section#main-section section#container section#articles{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px;
+}
+
+section#main-section section#container section#articles header{
+    width: 100%;
+}
+
+section#main-section header{
+    color: #84BE19;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+article.blog-article{
+margin-bottom: 60px;}
+
+article.blog-article div.picture{
+height: 170px;width: 200px;float: left;padding-right: 20px;}
+
+article.blog-article div.picture img{
+    width:100%;
+    height:100%;
+}
+
+article.blog-article div.content{
+    
+}
+
+article.blog-article div.content header{
+}
+
+article.blog-article div.content article{
+height: 108px;overflow: hidden;}
+
+
+
+
+section#main-section aside{
+    width: 33%;
+    float: right;
+}
+
+section#main-section aside header{
+    text-transform: uppercase;
+}
+
+section#main-section aside section#news{
+    border: 1px solid #E3E3E3;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px 20px 10px 20px;
+}
+
+section#main-section aside section#news header{
+}
+
+section#main-section aside section#news article.news-article{
+}
+
+
+
+
+section#main-section aside section#messages{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 30px 20px 10px 20px;
+}
+
+section#main-section aside section#messages header{
+    
+}
+
+section#main-section aside section#messages section{
+    font-weight: bold;
+    clear: both;
+    position: relative;
+}
+
+section#main-section aside section#messages footer{
+    
+}
+
+
+
+footer#mainfooter{
+    
+}
+
+footer#mainfooter article{
+    
+}
+
+
+div.content header.title{
+    color: black !important;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+span{
+    font-weight: bold;
+}
+
+section#main-section aside section#news article.news-article section{
+    font-weight: bold;
+}
+
+section#main-section aside section#news article.news-article footer{
+    font-style: italic;
+}
+
+a{
+    color: #84BE19;
+}
+
+section#main-section aside section#messages article{
+    padding-bottom: 25px;
+}

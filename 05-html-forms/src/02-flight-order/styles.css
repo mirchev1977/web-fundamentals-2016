@@ -1,0 +1,144 @@
+body,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-style: italic;
+    margin-left: 470px;
+}
+
+input{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+select{
+    height: 25px;
+}
+
+section#container{
+    background-color: pink;
+    padding: 10px 20px 20px 20px;
+    width: 430px;
+    overflow: auto;
+    font-size: 13px;
+}
+
+div#from-destination{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+div#to-destination{
+    float: left;
+    width: 200px;
+}
+
+div#from-destination input{
+    width: 100%;
+}
+
+div#to-destination input{
+    width: 100%;
+}
+
+div#from-destination label{
+    display: block;
+}
+
+div#to-destination label{
+    display: block;
+}
+
+section#checkbox{
+}
+
+div.date{
+    float: left;
+    width: 196px;
+    margin-right: 17px;
+}
+
+div.date label{
+    display:block;
+}
+
+div.time-interval label{
+    display: block;
+}
+
+div#clear{
+    clear:both;
+}
+
+div.age{
+    float: left;
+}
+
+div.age label{
+    display: block;
+}
+
+div#class label{
+    display: inline-block;
+    width: 95px;
+}
+
+
+section#checkbox label{
+    display: inline-block !important;
+}
+section#checkbox input{
+    display: inline-block;
+    width: 15px;
+}
+
+div.date input{
+    width: 100%;
+}
+
+div.time-interval input{
+    width: 92px;
+    margin-right: 5px;
+}
+
+div.age input{
+    width: 58px;
+    margin-right: 5px;
+}
+
+div#class{
+    width: 200px;
+    position: relative;
+    float: left;
+}
+
+div#class select{
+    width: 205px;
+}
+
+input[type="submit"]{
+    float:right;
+    height: 30px;
+    width: 200px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+::-webkit-input-placeholder {
+   padding-left: 5px;
+}
+
+input[value]{
+    padding-left: 5px;  
+}
+
+input[type=date]{
+    padding-left: 5px;  
+}
+
+input[type=number]{
+    padding-left: 5px;  
+}

@@ -1,0 +1,133 @@
+body{
+	font-size: 30px;
+	background-color: #f5f5ef;
+}
+
+h1{
+	font-size: 1em;
+}
+
+h2{
+	font-size: 0.8em;
+}
+
+p, label{
+	font-size: 0.5em;
+}
+
+fieldset{
+	width: 50%;
+	float: left;
+}
+
+form{
+	width: 100%;
+}
+
+input{
+	display: block;
+}
+
+fieldset{
+	width: initial;
+	border: none;
+}
+
+fieldset:last-of-type{
+	background-color:  #003366;
+	color: #fff;
+}
+
+fieldset{
+	width: 25%;
+}
+
+input{
+	margin-bottom: 5px;
+}
+
+input[type=checkbox]{
+	display: inline-block;
+	width: initial;
+	margin: 0px;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	border-radius: 2px;
+}
+
+input[type=submit]{
+	width: initial;
+	padding: 5px 30px;
+	float: right;
+	color: #003366;
+	font-weight: bold;
+	border: solid 1px #003366;
+	cursor: pointer;
+}
+
+fieldset:last-of-type input[type=submit]{
+	background-color: #003366;
+	color: #fff;
+	border-color: orange;
+}
+
+fieldset:last-of-type {
+    margin-top: 0px;
+}
+
+label{
+	display: inline;
+	margin-top: 0px;
+}
+
+.remember-me-container {
+    margin: 0;
+    height: 0px;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    width: 18px;
+}
+
+label {
+    vertical-align: middle;
+}
+
+body{
+	color: #003366;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+h2 {
+    font-size: 0.6em;
+}
+
+fieldset:last-of-type p{
+	clear: both;
+	text-align: right;
+	font-size: 0.4em;
+}
+
+p a{
+	color: #fff;
+}
+
+input{
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+fieldset:last-of-type{
+	height: 228px;
+}
+
+form{
+	padding-left: 20%;
+}

@@ -1,0 +1,154 @@
+article, aside, footer, header, hgroup, main, nav, section, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body header#container{
+    background-color: #325B73;
+    color: #EDEFF0;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+body header aside img{
+    height: 90px;
+    float: left;
+}
+
+body header aside:first-child{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    font-size: 29px;
+    float: left;
+    text-transform: uppercase;
+}
+
+body header aside:first-child div{
+    direction: inline-block;
+    vertical-align: middle;
+}
+
+body header aside:first-child div span{
+    vertical-align: super;
+    font-size: 22px;
+    text-transform: lowercase;
+}
+
+body header section {
+    height: 90px;
+}
+
+body header section header {
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+    align-items:  center;
+}
+
+body header section header div:nth-of-type(3){
+    margin-left: 20px;
+}
+
+body header section nav {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+body header section header div{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 22px;
+}
+
+body header section header div img:first-of-type {
+    height: 22px;
+    margin-top: 5px;
+}
+
+body header section header div img#dropdown-arrow {
+    height: 14px;
+    margin-top: 0px;
+}
+
+header section header article {
+    display: inline-block;
+    padding-right: 22px;
+}
+
+body header section nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 14px;
+    padding: 5px;
+    text-transform: uppercase;
+    position: inherit;
+}
+
+
+form input{
+    width: 220px;
+    border-radius: 5px;
+    height: 22px;
+    margin-right: 22px;
+    background-repeat: no-repeat;
+    background-image: url(images/search-input-field.png);
+    background-position: right;
+    background-size: 30px;
+}
+
+
+ul#submenu li{
+    visibility: hidden;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+li#about-the-university:hover > ul li{
+    background-color: #325B73;
+    visibility: visible;
+    position: relative;
+    width: 161px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li#training-courses:hover > ul li{
+    background-color: #325B73;
+    visibility: visible;
+    position: relative;
+    width: 128px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li#about-the-university:hover > ul{
+    background-color: yellow;
+    position: absolute;
+    width: 161px;
+    padding: 0px;
+}
+
+li#training-courses:hover > ul{
+    background-color: yellow;
+    position: absolute;
+    width: 138px;
+    padding: 0px;
+}
+
+li#about-the-university > a:after{
+    content: url("images/dropdown-arrow.png");
+}
+
+li#training-courses > a:after{
+    content: url("images/dropdown-arrow.png");
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}

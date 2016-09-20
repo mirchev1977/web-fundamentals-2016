@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fakebook Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section id="container">
+            <header id="main-header">
+                <p>Fakebook<span>&reg;</span></p>
+                <h1>Registration</h1>
+                <h2>It is safe and it will always be</h2>
+            </header>
+            <form>
+            <fieldset id="non-important-information">
+                <legend>None-Important Information</legend>
+                    <div id="non-important-left">
+                        <input type="text" placeholder="First Name" />
+                        <input type="email" placeholder="Your Email" />
+                        <input type="password" placeholder="Your Password" />
+                    </div>
+                    <div id="non-important-right">
+                        <input type="text" placeholder="Last Name" />
+                        <input type="text" placeholder="Phone Number" />
+                        <input type="url" placeholder="Website" />
+                    </div>
+                    <div id="birthday">
+                        <label for="date-of-registration">Birthday</label>
+                        <input type="date" id="date-of-registration" />
+                    </div>
+                    <div id="radio">
+                        <input type="radio" id="radio-female" /><label for="radio-female">Female</label>
+                        <input type="radio" id="radio-male" /><label for="radio-male">Male</label>
+                        <input type="radio" id="radio-other" /><label for="radio-other">Other</label>
+                    </div>
+            </fieldset>
+            <fieldset id="important-information">
+                <legend>Important Information</legend>
+                <div id="top-row">
+                <select>
+                    <option>Country</option>
+                    <option>Bulgaria</option>
+                    <option>France</option>
+                    <option>Italy</option>
+                    <option>Argentina</option>
+                </select>
+                <input list="villages" placeholder="Village">
+                <datalist id="villages">
+                    <option>Berry</option>
+                    <option>Goden Samokov</option>
+                    <option>Thorpo</option>
+                    <option>Earton</option>
+                </datalist>
+                <input list="districts" placeholder="District">
+                <datalist id="districts">
+                    <option>One</option>
+                    <option>Two</option>
+                    <option>Three</option>
+                    <option>Four</option>
+                </datalist>
+                </div>
+                <div id="lower-row">
+                    <input type="text" placeholder="Street" />
+                    <input type="text" placeholder="Number" />
+                    <input type="text" placeholder="Floor" />
+                    <input type="text" placeholder="Ap Nr" />
+                </div>
+                <div id="third-row">
+                    <label for="door-color">Door Color</label>
+                    <input type="color" id="door-color" />
+                    <input type="text" placeholder="Water Meter Nr" />
+                     <select>
+                        <option>Aunt's Panties' Size</option>
+                        <option>Uncles Panties' Size</option>
+                        <option>Peter's Panties' Size</option>
+                    </select>
+                </div>
+                <div id='more-about-you'>
+                    <label>More Personal Information</label>
+                    <textarea placeholder='Give us more information!!!'></textarea>
+                </div>
+            </fieldset>
+                <fieldset id='buttons'>
+                    <input type='submit' value="Clear Form" id="clear-button"/>
+                    <input type='submit' value="Register" id="register-button"/>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>

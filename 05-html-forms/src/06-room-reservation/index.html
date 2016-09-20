@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Room Reservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section id="container">
+            <header id="main-header">
+                <h1>Room Reservation</h1>
+                <section id="header-left">
+                    <header><h2>Basic Information</h2></header>
+                    <article>
+                        Lorem ipsum dolor sit amet, an eirmod phaedrum referrentur quo, eu ubique laoreet evertitur vel, id eum tractatos accommodare. Ei est omnis ornatus, debet habemus posidonium ne nam. Magna omnesque mel an, pri an idque saepe. Odio quodsi ullamcorper per ad, vel fugit alienum eu. Ei odio everti corpora eum, ea eos nobis saperet ponderum.
+                    </article>
+                </section>
+                <section id="header-right">
+                    <form action="http://softuni.bg" target="_blank">
+                        <label for="search-field">
+                            Search
+                        </label>
+                        <input type="text" id="search-field" />
+                        <input type="submit" value="" />
+                    </form>
+                </section>
+            </header>
+            <div id="dividing-line"></div>
+            <form>
+                <article id="main-article">
+                    <section id="personal-details">
+                        <header><h2>Personal Details</h2></header>
+                        <article>
+                            <input type="text" placeholder="First Name" />
+                            <input type="text" placeholder="Last Name" />
+                            <input type="email" placeholder="Enter email" />
+                        </article>
+                    </section>
+                    <section id="reservation-request">
+                        <header><h2>Request a reservation</h2></header>
+                        <div id="upper">
+                            <label for="room-selection">Select a room:</label>
+                            <select id="room-selection">
+                                <option>Room 1</option>
+                                <option>Room 2</option>
+                                <option>Room 3</option>
+                                <option>Room 4</option>
+                                <option>Room 5</option>
+                            </select>
+                            <label for="number-of-rooms">Number of Rooms:</label>
+                            <input type="number" id="number-of-rooms" />
+                        </div>
+                        <div id="lower">
+                            <label for="check-in">Check-In:</label>
+                            <input type="date" id="check-in" />
+                            <label for="check-out">Check-Out:</label>
+                            <input type="date" id="check-out" />
+                        </div>
+                    </section>
+                    <footer id="main-footer">
+                        <input type="submit" value="Book Now" />
+                    </footer>
+                </article>
+            </form>
+        </section>
+    </body>
+</html>
