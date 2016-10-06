@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit User Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section class="wrapper">
+		<header>EDIT User</header>
+		<form>
+			<fieldset>
+				<div><label for="username">Username</label>
+				<input type="text" id="username"></div>
+				<div><label for="email">Email</label>
+				<input type="email" id="email"></div>
+				<div><label for="phone">Phone number</label>
+				<input type="phone" id="phone"></div>
+				<label class="user-type">User type</label>
+				<div class="radio">
+				<input type="radio" id="broadband"><label>BROADBAND</label>
+				<input type="radio" id="radio"><label>RADIO</label>
+				</div>
+				<div><label for="password">Change Password</label>
+				<input type="text" id="password"></div>
+
+				<div class="groups">
+				<ul>
+					<li><input type="checkbox" id="grAll" /><label for="grAll">All Groups</label></li>
+
+					<li><input type="checkbox" id="gr1" /><label for="gr1">Group 1</label></li>
+
+					<li><input type="checkbox" id="gr2" /><label for="gr3">Group 2</label></li>
+
+					<li><input type="checkbox" id="gr3" /><label for="gr3">Group 3</label></li>
+
+					<li><input type="checkbox" id="gr4" /><label for="gr4">Group 4</label></li>
+				</ul>
+				<labe for="groups">Groups</labe>
+				<input type="text" id="groups">
+				</div>
+
+				<div class="contacts"><label for="contacts">Contacts</label>
+				<p><a href="#">See Contacts List</a></p></div>
+				<div class="buttons">
+					<input type="submit" value="CANCEL">
+					<input type="submit" value="SAVE">
+				</div>
+			</fieldset>
+			<fieldset class="last-fieldset">
+				<input type="checkbox"><label>Deactivate</label>
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
